@@ -9,7 +9,8 @@ Manager Class:
   - **createUser($username,$password)** - Create a new User in the database
   - **validateUser($username,$password)** - Validate the user and returns true or false 
   - **existsUser($username)** - Check if the user exists and returns true or false
-
+# Installation
+drag and drop Mysql.php and UserManager.php in the folder of your project
 # Login Example
 ```
 <?php session_start();
