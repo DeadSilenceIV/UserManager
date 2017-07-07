@@ -55,7 +55,7 @@
 				echo $e->getMessage();
 				die();
 			}
-			$this->execStatementSetter("CREATE TABLE IF NOT EXISTS users(id INT AUTO_INCREMENT,user varchar(50),pass varchar(250),PRIMARY KEY (id))");
+			$this->execStatementSetter("CREATE TABLE IF NOT EXISTS users(id INT AUTO_INCREMENT,user varchar(50),pass varchar(250),PRIMARY KEY (id))",false);
 		}
 	}
 
